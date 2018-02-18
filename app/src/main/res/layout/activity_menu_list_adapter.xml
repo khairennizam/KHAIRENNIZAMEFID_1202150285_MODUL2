@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/lblListGambar1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ayampop" />
+
+    <TextView
+        android:id="@+id/lblListNama1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lblListGambar1"
+        android:paddingTop="15dp"
+        android:text="Ayam Pop"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblListHarga1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblListNama1"
+        android:layout_toRightOf="@+id/lblListGambar1"
+        android:text="Rp. 20.000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/lblListID1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lblListHarga1"
+        android:text="ID"
+        android:visibility="invisible" />
+
+    <View
+        android:layout_below="@+id/lblListGambar1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#ccc"
+        android:id="@+id/view" />
+
+
+</RelativeLayout>

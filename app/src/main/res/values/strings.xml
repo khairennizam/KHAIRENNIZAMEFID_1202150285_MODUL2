@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KHAIRENNIZAMEFID_1202150285_MODUL2</string>
+    <string name="title_activity_order">Order Activity</string>
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khairennizamefid.khairennizamefid_1202150285_modul2.DineIn">
+
+    <TextView
+        android:id="@+id/textView_Detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Detail Customer"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView_Detail"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView_nomeja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_name"
+        android:layout_alignStart="@+id/editText_name"
+        android:layout_below="@+id/editText_name"
+        android:layout_marginTop="20dp"
+        android:text="No.Meja"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_pilih"
+        android:layout_alignRight="@+id/button_pilih"
+        android:layout_below="@+id/editText_name"
+        android:entries="@array/labels_array"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/button_pilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_nomeja"
+        android:layout_marginTop="37dp"
+        android:layout_toEndOf="@+id/textView_nomeja"
+        android:layout_toRightOf="@+id/textView_nomeja"
+        android:text="Pilih Pesanan"
+        android:onClick="Psn"/>
+
+
+</RelativeLayout>
